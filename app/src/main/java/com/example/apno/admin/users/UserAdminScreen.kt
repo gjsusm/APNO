@@ -21,8 +21,8 @@ fun UserAdminScreen() {
     LazyColumn {
         items(users) { user ->
             ListItem(
-                headlineText = { Text(user.name) },
-                supportingText = { Text(user.email) },
+                headlineContent = { Text(user.name) },
+                supportingContent = { Text(user.email) },
                 trailingContent = { Text(user.role) },
                 modifier = Modifier.clickable {
                     selectedUser = user

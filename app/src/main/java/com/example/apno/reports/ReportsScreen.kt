@@ -62,8 +62,8 @@ fun ReportsScreen() {
             LazyColumn {
                 items(it.orders) { order ->
                     ListItem(
-                        headlineText = { Text("Order on ${formatDate(order.createdAt!!)}") },
-                        supportingText = { Text("Total: $${order.total}") }
+                        headlineContent = { Text("Order on ${formatDate(order.createdAt!!)}") },
+                        supportingContent = { Text("Total: $${order.total}") }
                     )
                 }
             }

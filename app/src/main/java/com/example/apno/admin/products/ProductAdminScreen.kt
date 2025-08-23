@@ -33,8 +33,8 @@ fun ProductAdminScreen(
         LazyColumn(modifier = Modifier.padding(padding)) {
             items(products) { product ->
                 ListItem(
-                    headlineText = { Text(product.name) },
-                    supportingText = { Text(String.format("$%.2f", product.price)) },
+                    headlineContent = { Text(product.name) },
+                    supportingContent = { Text(String.format("$%.2f", product.price)) },
                     trailingContent = {
                         Row {
                             IconButton(onClick = { onEditProduct(product.id) }) {

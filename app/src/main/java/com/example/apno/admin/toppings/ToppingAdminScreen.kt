@@ -35,8 +35,8 @@ fun ToppingAdminScreen() {
         LazyColumn(modifier = Modifier.padding(padding)) {
             items(toppings) { topping ->
                 ListItem(
-                    headlineText = { Text(topping.name) },
-                    supportingText = { Text(String.format("$%.2f", topping.price)) },
+                    headlineContent = { Text(topping.name) },
+                    supportingContent = { Text(String.format("$%.2f", topping.price)) },
                     trailingContent = {
                         Row {
                             IconButton(onClick = {

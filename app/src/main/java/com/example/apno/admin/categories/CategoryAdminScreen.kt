@@ -35,8 +35,8 @@ fun CategoryAdminScreen() {
         LazyColumn(modifier = Modifier.padding(padding)) {
             items(categories) { category ->
                 ListItem(
-                    headlineText = { Text(category.name) },
-                    supportingText = { Text("Order: ${category.order}") },
+                    headlineContent = { Text(category.name) },
+                    supportingContent = { Text("Order: ${category.order}") },
                     trailingContent = {
                         Row {
                             IconButton(onClick = {
