@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- For more information on what is backed up, see https://developer.android.com/guide/topics/data/autobackup -->
+    <exclude domain="database" path="."/>
+    <!-- Exclude the shared preferences file that contains the GCM registrationId -->
+    <exclude domain="sharedpref" path="com.google.android.gcm.xml"/>
+</full-backup-content>
