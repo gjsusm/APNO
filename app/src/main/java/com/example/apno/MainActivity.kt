@@ -12,6 +12,7 @@ import androidx.compose.ui.Modifier
 import com.example.apno.navigation.AppNavigation
 import com.example.apno.ui.theme.IceCreamPOSTheme
 
+
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
