@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "708274510709",
+    "project_id": "apno1-98485",
+    "storage_bucket": "apno1-98485.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708274510709:android:ca28773f416f10fe83513c",
+        "android_client_info": {
+          "package_name": "com.example.apno"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvTa0xELIAvMd9qd-DdgW_kpA-om_poko"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

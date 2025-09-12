@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">IceCreamPOS</string>
+
+    <!-- Login Screen -->
+    <string name="email">Email</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Iniciar Sesión</string>
+
+    <!-- POS Screen -->
+    <string name="admin">Administración</string>
+    <string name="cart">Carrito</string>
+    <string name="clear">Limpiar</string>
+    <string name="save">Guardar</string>
+    <string name="pay">Pagar</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="tax">Impuestos</string>
+    <string name="total">Total</string>
+    <string name="order_saved_successfully">¡Pedido guardado con éxito!</string>
+    <string name="confirm_payment">Confirmar Pago</string>
+    <string name="card">Tarjeta</string>
+    <string name="cash">Efectivo</string>
+    <string name="cancel">Cancelar</string>
+    <string name="add_to_cart">Añadir al Carrito</string>
+    <string name="quantity">Cantidad</string>
+    <string name="toppings">Toppings</string>
+
+    <!-- Admin Screens -->
+    <string name="add_category">Añadir Categoría</string>
+    <string name="edit_category">Editar Categoría</string>
+    <string name="category_name">Nombre de Categoría</string>
+    <string name="order">Orden</string>
+    <string name="confirm">Confirmar</string>
+
+    <string name="add_product">Añadir Producto</string>
+    <string name="edit_product">Editar Producto</string>
+    <string name="product_name">Nombre de Producto</string>
+    <string name="description">Descripción</string>
+    <string name="price">Precio</string>
+    <string name="category">Categoría</string>
+    <string name="save_product">Guardar Producto</string>
+
+    <string name="add_topping">Añadir Topping</string>
+    <string name="edit_topping">Editar Topping</string>
+    <string name="topping_name">Nombre del Topping</string>
+
+    <string name="edit_role_for">Editar Rol para %1$s</string>
+
+    <string name="manage_categories">Gestionar Categorías</string>
+    <string name="manage_products">Gestionar Productos</string>
+    <string name="manage_toppings">Gestionar Toppings</string>
+    <string name="manage_users">Gestionar Usuarios</string>
+    <string name="settings">Configuración</string>
+    <string name="reports">Reportes</string>
+
+    <string name="store_name">Nombre de la Tienda</string>
+    <string name="address">Dirección</string>
+    <string name="tax_id_ruc">ID de Impuestos (RUC)</string>
+    <string name="currency">Moneda</string>
+    <string name="tax_percent">Porcentaje de Impuesto</string>
+    <string name="save_settings">Guardar Configuración</string>
+
+    <!-- Reports Screen -->
+    <string name="select_start_date">Seleccionar Fecha de Inicio</string>
+    <string name="select_end_date">Seleccionar Fecha de Fin</string>
+    <string name="generate_sales_report">Generar Reporte de Ventas</string>
+    <string name="total_sales">Ventas Totales</string>
+    <string name="number_of_orders">Número de Pedidos</string>
+    <string name="order_on_date">Pedido en %1$s</string>
+
+</resources>
